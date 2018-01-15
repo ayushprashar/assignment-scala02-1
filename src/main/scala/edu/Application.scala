@@ -31,5 +31,6 @@ object Application extends App {
     ,consecutiveDuplicateElement2,consecutiveDuplicateElement3,consecutiveDuplicateElement4,
     consecutiveDuplicateElement5,consecutiveDuplicateElement6,consecutiveDuplicateElement7)
 
-  log.info(s"${Operations.removeDuplicates(consecutiveDuplicateList)}")
+  log.info(s"${Operations.removeDuplicates(consecutiveDuplicateList)}\n")
+  log.info(s"${Operations.superEncoding(consecutiveDuplicateList)}")
 }
